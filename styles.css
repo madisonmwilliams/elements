@@ -1,0 +1,131 @@
+/* Elements */
+
+body {
+	background-color: skyblue;
+	color: black;
+	font-family: sans-serif;
+	line-height: 0;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.circle {
+	width: 6.5em;
+	height: 6.5em;
+	background-color: orange;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+
+.line {
+	width: 4em;		
+	height: .5em;
+	position: absolute;
+	left: 35%;
+	top: 57.5%;
+	background-color: orange;
+	transform: rotate(180deg);
+}
+
+.line-2 {
+	width: 4em;		
+	height: .5em;
+	position: absolute;
+	left: 70%;
+	top: 57.5%;
+	background-color: orange;
+	transform: rotate(180deg);
+}
+
+.line-3 {
+	width: 4em;		
+	height: .5em;
+	position: absolute;
+	left: 53%;
+	top: 40%;
+	background-color: orange;
+	transform: rotate(90deg);
+}
+.line-4 {
+	width: 4em;		
+	height: .5em;
+	position: absolute;
+	left: 53%;
+	top: 78%;
+	background-color: orange;
+	transform: rotate(90deg);
+}
+.line-5{
+	width: 4em;		
+	height: .5em;
+	position: absolute;
+	left: 40%;
+	top: 70%;
+	background-color: orange;
+	transform: rotate(140deg);
+
+}
+.line-6 {
+	width: 4em;		
+	height: .5em;
+	position: absolute;
+	left: 65%;
+	top: 45%;
+	background-color: orange;
+	transform: rotate(320deg);
+
+}
+.line-7 {
+	width: 4em;		
+	height: .5em;
+	position: absolute;
+	left: 68%;
+	top: 73%;
+	background-color: orange;
+	transform: rotate(220deg);
+}
+.line-8 {
+	width: 4em;		
+	height: .5em;
+	position: absolute;
+	left: 40%;
+	top: 45%;
+	background-color: orange;
+	transform: rotate(40deg);
+}
+
+.circle-2 {
+	width: 4em;
+	height: 4em;
+	background-color: white;
+	box-shadow: 5px 5px 30px inset;
+	border-radius: 50%;
+	position: absolute;
+	left: 15%;
+	top: 75%;
+}
+
+
+.triangle-bottomright {
+	width: 0em;
+	height: 0em;
+	position: absolute;
+	left: 5%;
+	top: 80%;
+	border-bottom: 220px  solid pink;
+	border-left: 220px solid transparent;
+}
+
+.moon {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 10%;
+	top: 30%;
+	border-radius: 50%;
+	box-shadow: 10px 10px 0 0 yellow;
+
+}
